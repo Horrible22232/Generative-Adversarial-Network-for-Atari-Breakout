@@ -10,3 +10,7 @@ A Generative Adversarial Network consists of two parts, namely the generator and
 In the course of training, the generator gets better in generating and the discriminator in identifying generated images. All in all, GANs are a powerful methode to approximate a data distribution.
 
 # Approach
+
+# References
+[1] Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron C. Courville, Yoshua Bengio: Generative Adversarial Networks. CoRR abs/1406.2661 (2014)
+[2] Martín Arjovsky, Soumith Chintala, Léon Bottou: Wasserstein GAN. CoRR abs/1701.07875 (2017)
