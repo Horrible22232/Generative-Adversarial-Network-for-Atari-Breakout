@@ -12,5 +12,5 @@ In the course of training, the generator gets better in generating and the discr
 # Approach
 
 # References
-[1] Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron C. Courville, Yoshua Bengio: Generative Adversarial Networks. CoRR abs/1406.2661 (2014)
+[1] Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron C. Courville, Yoshua Bengio: Generative Adversarial Networks. CoRR abs/1406.2661 (2014)\
 [2] Martín Arjovsky, Soumith Chintala, Léon Bottou: Wasserstein GAN. CoRR abs/1701.07875 (2017)
