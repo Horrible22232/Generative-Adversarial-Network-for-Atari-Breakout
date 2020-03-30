@@ -10,14 +10,14 @@ A Generative Adversarial Network consists of two parts, namely the generator and
 In the course of training, the generator gets better in generating and the discriminator in identifying generated images. All in all, GANs are a powerful methode to approximate a data distribution.
 
 # Try it out!
-It is strongly recommended to try out the code by yourself by following this instructions: \
-1. Visit https://colab.research.google.com/ \
-2. Open GAN.ipynb \
-3. Select a GPU for faster training (Runtime => Change runtime type => Hardware accelerator = GPU => save)\
+It is strongly recommended to try out the code by yourself by following this instructions: 
+1. Visit https://colab.research.google.com/ 
+2. Open GAN.ipynb 
+3. Select a GPU for faster training (Runtime => Change runtime type => Hardware accelerator = GPU => save)
 4. Run GAN.ipynb
 
 # Approach
-
+![alt text](https://raw.githubusercontent.com/Horrible22232/Generative-Adversarial-Network/master/imgs/GAN-Output.png "GAN-Output.png")
 
 
 # References
