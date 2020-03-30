@@ -1,7 +1,5 @@
 # Generative-Adversarial-Network
 
-On progress
-
 # Introduction
 In recent years, Generative Adversarial Networks (GANs) have become a widely known and important subfield of Machine Learning. GANs are unsupervised learning algorithms for generating images, so unlabled data in form of images is needed in order to generate new, unseen images from a data distribution.
 
