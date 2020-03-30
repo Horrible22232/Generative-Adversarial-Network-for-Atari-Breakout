@@ -19,7 +19,7 @@ It is strongly recommended to try out the code by yourself by following this ins
 # Approach
 ![alt text](https://raw.githubusercontent.com/Horrible22232/Generative-Adversarial-Network/master/imgs/GAN-Output.png "GAN-Output.png")
 This implementation of a Generative Adversarial Network shows how GANs are used for the sake of generating successfully Atari images by using PyTorch and OpenAI gym. First of all, training GANs is hard. Models often collaps or never converge. To avoid some problems concerning GANs like dying gradients, Wasserstein GAN(WGAN) is partially implemented here.
-The only difference is the discriminator model, which includes a Sigmoid activation function as an ouput since improvements regarding my experiments got observed relating the training speed of the discriminator. The generator consists of transposed convolutional layers and dense layers which aim to upsample the input, that consists of noise, to an Atari image. However, the discriminator is made up by stacked convolutional layers and trained to identify the fake images.
+The only difference is the discriminator model, which includes a Sigmoid activation function as an ouput since improvements regarding my experiments got observed relating the training speed of the discriminator. The generator consists of transposed convolutional and dense layers which aim to upsample the input, that consists of noise, to an Atari image. However, the discriminator is made up by stacked convolutional and final dense layers trained to identify the fake images.
 As a result, every iteration a sample from the real and generated set gets plotted in order to demonstrate the training progress of the generator.
 
 # References
