@@ -1,4 +1,4 @@
-# Generative-Adversarial-Network
+# Generative Adversarial Network for Atari Breakout
 
 ## Introduction
 
