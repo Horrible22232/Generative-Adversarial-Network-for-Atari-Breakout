@@ -44,7 +44,6 @@ The discriminator identifies whether an image is real or generated:
 - **Loss Function**: Binary Cross-Entropy with Logits Loss (`BCEWithLogitsLoss`) to improve stability by combining a sigmoid layer with binary cross-entropy loss.
 - **Optimizers**: Both networks use the Adam optimizer with a learning rate of `2e-4` and betas `(0.5, 0.999)`.
 - **Data Preparation**: Collects frames from the Breakout-v4 environment, normalizing them to `[-1, 1]`.
-- **Training Loop**: The discriminator is trained to distinguish between real and generated images, while the generator is trained to produce images that fool the discriminator.
 - **Visualization**: After each epoch, a real and a generated image are displayed side by side to show the generator's progress.
 
 ## References
