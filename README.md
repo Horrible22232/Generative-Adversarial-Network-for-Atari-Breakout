@@ -21,7 +21,7 @@ It is strongly recommended to try out the code yourself by following these instr
 
 ![GAN Output](https://raw.githubusercontent.com/Horrible22232/Generative-Adversarial-Network/master/imgs/GAN-Output.png "GAN-Output.png")
 
-This implementation of a Generative Adversarial Network demonstrates how GANs can be used to generate Atari Breakout images using PyTorch and OpenAI Gym. Training a GAN can be challenging, as models often experience issues such as mode collapse or non-convergence. In this implementation, we use the standard GAN framework with some techniques to improve training stability.
+This implementation of a Generative Adversarial Network shows how GANs can be used to successfully generate Atari images by using PyTorch and OpenAI gym. First of all, training a GAN is hard. Models often collapse or don't converge. In this implementation, we use the standard GAN framework with some techniques to improve training stability.
 
 **Generator Architecture**
 
